@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       div{
+        margin: 10px;
+       }
+        .block{
+            background-color: #199bf2;
+            width: 100px;
+            height: 100px;
+            border-left: #9aa4aa solid 6px;
+        }
+        .satu{
+            background-color: #53778f;
+            width: 100px;
+            height: 100px;
+        }
+        .dua{
+            background-color: #232f36;
+            width: 100px;
+            height: 100px;
+            border-left: #357aa1 solid 6px;
+        }
+        .block:hover{
+         transform: rotate(10deg);
+         /* rotate : Digunakan untuk memutar (rotate) elemen berdasarkan sudut tertentu. 
+         deg = derajat (degree)
+         360deg = 1 putaran penuh
+         (+) ke kanan 
+         (-) ke kiri */
+        }
+        .dua:hover{
+            transform: rotate(-10deg);
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="block"></div>
+    <div class="block satu"></div>
+    <div class="block dua"></div>
+</body>
+</html>
